@@ -1,12 +1,16 @@
-import { NavLink } from "react-router-dom";
+import { NavLink , Link} from "react-router-dom";
+
 import logo from "../images/logo.png";
 
 export default function NavBar() {
   return (
     <>
       <nav>
-         <ul className="navbar">
-         <img src={logo} alt="Vista Logo" className="navbar-logo" />    
+        <ul className="navbar">
+          <Link to="/">
+          <img src={logo} alt="Vista Logo" className="navbar-logo" />    
+        </Link>
+        
           <li>
             <NavLink to="/about">About</NavLink>
           </li>
@@ -19,8 +23,12 @@ export default function NavBar() {
           <li>
             <NavLink to="/model_test">Model Test</NavLink>
           </li>
+          <li>
+            <NavLink to="/feedback">Feedback</NavLink>
+          </li>
           <li className="button">
-            
+            <button>Log In</button>
+            <button>Sign Up</button>
           </li>
         </ul>
       </nav>

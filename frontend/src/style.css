@@ -1,16 +1,13 @@
-/* Reset בסיסי */
+/* איפוס של האתר*/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
   overflow-x: hidden;
-  line-height: 1.6;
+
 }
 
 .navbar {
@@ -25,13 +22,6 @@ body {
   display: flex;
   align-items: center; /* לוגו וטקסט בשורה אחת */
   margin-right: 20px; /* רווח בין הלוגו לשאר הפריטים */
-}
-
-.logo-link {
-  display: flex;
-  align-items: center; /* יישור אנכי של הטקסט עם הלוגו */
-  text-decoration: none;
-  color: white;
 }
 
 .navbar-logo {
@@ -133,17 +123,6 @@ body {
   transform: translateY(1px);
 }
 
-/* עיצוב ה-Footer */
-.footer {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  text-align: center;
-  padding: 1rem 0;
-  font-size: 0.9rem;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
 
 .contact-container {
   display: flex;
