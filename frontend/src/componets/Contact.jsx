@@ -12,7 +12,7 @@ function Contact() {
       <div className="contact-container">
         <div className="contact-box">
           <div className="contact-box-open-days">
-            <h3>שעות פעילות</h3>
+            <h3>Hours of operation </h3>
             <div className="Heading-opening-days">
               <div>
                 <h4 className="b">ראשון-חמישי</h4>
@@ -33,8 +33,7 @@ function Contact() {
           <div className="contact-box-phone">
             <h3>call us</h3>
             <div className="Heading-phone">
-              <h5>Doctor Aviad Elishr</h5>
-              <button onClick={callNow}>054-487-0000</button>
+              <h5>Doctor Aviad Elishr 054-4870000</h5>
             </div>
           </div>
 
@@ -48,16 +47,17 @@ function Contact() {
 
         <div className="contact-image">
           <h1>where are we</h1>
-          <iframe
-            title="Google Map"
-            className="iframe"
-            src="https://www.google.com/maps/embed/v1/view?key=YOUR_API_KEY&center=31.24984,34.7902202&zoom=15"
-            width="100%"
-            height="400"
-            style={{ border: "0" }}
-            allowFullScreen
-            loading="lazy"
-          ></iframe>
+          <div style={{ width: "100%" }}>
+            <iframe
+              width="520"
+              height="400"
+              frameBorder="0"
+              scrolling="no"
+              marginHeight="0"
+              marginWidth="0"
+              src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%D7%91%D7%99%D7%90%D7%9C%D7%99%D7%A7%2056%20%D7%91%D7%90%D7%A8%20%D7%A9%D7%91%D7%A2+(%D7%9E%D7%9B%D7%9C%D7%9C%D7%AA%20%D7%A1%D7%9E%D7%99%20%D7%A9%D7%9E%D7%A2%D7%95%D7%9F)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ></iframe>
+          </div>
           <h3>or click here</h3>
           <div className="Heading-location">
             <a

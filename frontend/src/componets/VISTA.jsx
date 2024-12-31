@@ -3,11 +3,14 @@ import InstagramLoginButton from "./InstagramLoginButton"; // עדכני את ה
 
 function VISTA() {
     return (
-        <div className="page-container">
-            <h1> Welcome to VISTA site</h1>
-            <p> a Automated photo filtering for tourism domain using deep and active learning</p>
-            {/* הוספת כפתור אינסטגרם */}
-            <InstagramLoginButton />
+        <div className="vista-container">
+            <div className="hero-section">
+                <h1 className="hero-title">Welcome to <span>VISTA</span></h1>
+                <p className="hero-description">
+                    Automated photo filtering for tourism using <span>deep</span> and <span>active learning</span>.
+                </p>
+                <InstagramLoginButton />
+            </div>
         </div>
     );
 }
